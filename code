@@ -126,4 +126,4 @@ while True:
         training_input = [[random.randint(0, 1) for i in range(5)] for i in range(4)]
         training_output = [training_input[i][0] for i in range(len(training_input))]
         
-        testing_input = [random.randint(0, 1) for i in range(5)]
+        testing_input = [random.randint(0, 1) for i in range(5)] 
